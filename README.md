@@ -10,6 +10,8 @@ deno run --allow-read --allow-write parse-history.ts
 
 It will produce `out.md`.
 
+4. If you want to commit the output, rename `out.md` to `player-fm-history.md` and commit it.
+
 ## Dev tips
 
 - In `parse-history.ts`, use the `player-fm-history (single episode).html` file for quicker development.
