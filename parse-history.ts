@@ -8,6 +8,16 @@ function write(line: string) {
   writeAllSync(file, new TextEncoder().encode(line + '\n'));
 }
 
+function isStragePlayedTime(timestamp: number) {
+  return (
+    // No `data-played-at` attribute
+    isNaN(timestamp) ||
+    // `data-played-at` is present but contains an unrealistic value
+    timestamp === 1 ||
+    timestamp === -2
+  );
+}
+
 // --------------------
 // Main script
 
@@ -34,9 +44,9 @@ $('article').map((_, article) => {
 
   const episodeTimestamp = Number($(article).attr('data-played-at'));
   const time = new Date(episodeTimestamp * 1000);
-  const episodeListenTimeFormatted = isNaN(episodeTimestamp)
+  const episodeListenTimeFormatted = isStragePlayedTime(episodeTimestamp)
     ? '(?)'
-    : `${time.getDate()}\\. ${time.getMonth() + 1}. ${time.getFullYear()}`;
+    : `${time.getDate()}\\. ${time.getMonth() + 1}. ${time.getFullYear()}`; // "\\." is necessary to avoid Markdown ordered list
 
   write(
     `- ${episodeListenTimeFormatted}: <img width="16" height="16" src="${showImageUrl}"> [${showName}](${showUrl}) — [${episodeName}](${episodeUrl}) (${episodeDuration})`
