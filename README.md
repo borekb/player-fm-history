@@ -1,18 +1,18 @@
 # Player FM history export
 
+Quick and dirty script to get a Markdown file of podcast episodes played in PlayerFM.
+
 1. Go to <https://player.fm/borekb/play-history/all>
-2. Scroll down a couple of times to get the entire history
+2. Scroll down as many times as needed to get the entire history
 3. Run this:
 
 ```console
-deno run --allow-read --allow-write parse-history.ts
+deno run -A parse-history.ts
 ```
 
-It will produce `out.md`.
-
-4. If you want to commit the output, rename `out.md` to `player-fm-history.md` and commit it.
+It will produce `out.md` (gitignored). When happy with the results, copy it to `player-fm-history.md` and commit.
 
 ## Dev tips
 
 - In `parse-history.ts`, use the `player-fm-history (single episode).html` file for quicker development.
-- Add `--watch` to the command above to re-run the script after each change.
+- `--watch` is useful.
