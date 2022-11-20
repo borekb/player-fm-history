@@ -1,14 +1,13 @@
 # Player FM history export
 
-Run:
+1. Create `.env` from `.env.example`
+2. Run:
 
 ```console
-deno run --allow-read --allow-write parse-history.ts
+deno run -A parse-history.ts
 ```
 
-It will produce `out.md`.
-
-When happy with the output, copy it to `player-fm-history.md` and commit.
+This will produce `out.md`. When you're happy with the output, copy it to `player-fm-history.md` and commit it to the repo.
 
 ## Dev tips
 

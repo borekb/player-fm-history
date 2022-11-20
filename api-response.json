@@ -1,0 +1,403 @@
+{
+  "type": "channel",
+  "id": 0,
+  "access": "private",
+  "shortTitle": "History",
+  "title": "Play History",
+  "hasEpisodes": true,
+  "hasSeries": false,
+  "hasChannels": false,
+  "slug": "play-history",
+  "seriesChangedAt": "2022-11-20T00:25:05.000+00:00",
+  "episodesChangedAt": "2022-11-20T00:25:05.858+00:00",
+  "autoRemove": false,
+  "trackPosition": true,
+  "channelType": "playhistory",
+  "updatedAt": 1668903905,
+  "numberOfSubChannels": 0,
+  "lookup": "https://player.fm/11523201/play-history/all.json",
+  "latestLookup": "https://player.fm/11523201/play-history/all.json",
+  "languages": [],
+  "subscriptionsLimit": 1000,
+  "share": "https://player.fm/borekb/play-history",
+  "episodes": [
+    {
+      "id": 314769616,
+      "slug": "gearing-up-for-2022",
+      "explicit": false,
+      "mediaType": "audio/mpeg",
+      "rawTitle": "gear",
+      "title": "Gearing Up For 2022",
+      "url": "https://cdn.simplecast.com/audio/9e00e0ca-7cee-4154-99bd-b88788e0c997/episodes/11e4b0f7-8da4-4cc4-83f4-a2da64692576/audio/5166a750-a49b-4267-a947-5cb25b1c5b35/default_tc.mp3?aid=rss_feed&feed=1F1xAfLc",
+      "home": "https://outofbeta.fm",
+      "publishedAt": 1639599300,
+      "lookup": "https://player.fm/series/2517215/314769616.json",
+      "share": "https://player.fm/1BMQLnS",
+      "size": 37860910,
+      "duration": 2366,
+      "description": "<p>Matt and Peter are mentally already in 2022 as they're tying up all their loose ends from 2021.</p>",
+      "series": {
+        "type": "series",
+        "id": 2517215,
+        "slug": "out-of-beta-2517215",
+        "title": "Out of Beta",
+        "image": {
+          "type": "image",
+          "id": 24258074,
+          "url": "https://image.simplecastcdn.com/images/0b414a7c-3813-41c0-a772-4710fc28b160/a9b82912-2b32-4915-a745-08ac0d0ce726/3000x3000/ooblargecover.jpg?aid=rss_feed",
+          "urlBase": "https://cdn.player.fm/images/24258074/series/0ljBTjOyxqi6r2eD",
+          "palette": [
+            "00ff97"
+          ],
+          "suffix": "jpg"
+        },
+        "backgroundColor": "#D81422",
+        "network": {
+          "name": "Matt Wensing & Peter Suhm"
+        },
+        "tags": [
+          {
+            "type": "tag",
+            "id": 77,
+            "title": "Tech",
+            "rawTitle": "tech",
+            "language": "en",
+            "polar": 0.7,
+            "topic": {
+              "id": 18,
+              "owner": {
+                "id": 3
+              },
+              "title": "Tech"
+            },
+            "ancestors": [],
+            "series": {
+              "amount": 50326,
+              "centile": 0.993
+            },
+            "sources": [
+              "categories"
+            ]
+          },
+          {
+            "type": "tag",
+            "id": 811068,
+            "title": "Matt Wensing & Peter Suhm",
+            "rawTitle": "matt-wens-peter-suhm",
+            "language": "en",
+            "polar": 0.5,
+            "sources": [
+              "owner"
+            ]
+          },
+          {
+            "type": "tag",
+            "id": 811069,
+            "title": "Matt Wensing",
+            "rawTitle": "matt-wens",
+            "language": "en",
+            "polar": 0.5,
+            "sources": [
+              "author"
+            ]
+          },
+          {
+            "type": "tag",
+            "id": 811070,
+            "title": "Peter Suhm",
+            "rawTitle": "peter-suhm",
+            "language": "en",
+            "polar": 0.5,
+            "sources": [
+              "author"
+            ]
+          },
+          {
+            "type": "tag",
+            "id": 808835,
+            "title": "Matt Peters",
+            "rawTitle": "matt-peter",
+            "language": "en",
+            "polar": 0.5,
+            "sources": [
+              "inferred"
+            ]
+          },
+          {
+            "type": "tag",
+            "id": 255,
+            "title": "Tech Startups",
+            "rawTitle": "tech-startup",
+            "shortTitle": "Startups",
+            "language": "en",
+            "polar": 0.5,
+            "topic": {
+              "id": 22,
+              "owner": {
+                "id": 3
+              },
+              "title": "Tech Startups"
+            },
+            "ancestors": null,
+            "series": {
+              "amount": 163,
+              "centile": 0.956
+            },
+            "sources": [
+              "featured"
+            ]
+          },
+          {
+            "type": "tag",
+            "id": 125,
+            "title": "Business",
+            "rawTitle": "busi",
+            "language": "en",
+            "polar": 0.5,
+            "topic": {
+              "id": 932129,
+              "owner": {
+                "id": 3
+              },
+              "title": "Business"
+            },
+            "ancestors": null,
+            "series": {
+              "amount": 98785,
+              "centile": 0.996
+            },
+            "sources": [
+              "featured"
+            ]
+          },
+          {
+            "type": "tag",
+            "id": 256,
+            "title": "Entrepreneur",
+            "rawTitle": "entrepreneur",
+            "language": "en",
+            "polar": 0.5,
+            "topic": {
+              "id": 17993,
+              "owner": {
+                "id": 3
+              },
+              "title": "Entrepreneur"
+            },
+            "ancestors": null,
+            "series": {
+              "amount": 20070,
+              "centile": 0.991
+            },
+            "sources": [
+              "featured"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 305415172,
+      "slug": "ep-486-keeping-up-the-new-web-things-dealing-with-spicy-sections-a-cloudinary-follow-up-and-some-apple-problems-persist",
+      "explicit": false,
+      "mediaType": "audio/mpeg",
+      "rawTitle": "new web thing deal spici section cloudinari follow appl problem persist",
+      "title": "486: Keeping Up the New Web Things, Dealing with Spicy Sections, a Cloudinary Follow-Up, and some Apple Problems Persist",
+      "minimalTitle": "Keeping Up the New Web Things, Dealing with Spicy Sections, a Cloudinary Follow-Up, and some Apple Problems Persist",
+      "url": "https://shoptalkshow.com/podcast-download/5241/486.mp3",
+      "home": "https://shoptalkshow.com/486/",
+      "publishedAt": 1635166837,
+      "lookup": "https://player.fm/series/2482845/305415172.json",
+      "share": "https://player.fm/1BKbgjE",
+      "size": 43577562,
+      "duration": 3610,
+      "description": "It's difficult enough to keep up with new web things, even when it's your job. How do Chris &amp; Dave do it? Dave's blogging on spicy sections, Chris' Cloudinary issues are resolved, and there's some Apple problems to deal with.",
+      "image": {
+        "url": "https://i0.wp.com/shoptalkshow.com/wp-content/uploads/2020/05/chris-and-dave_otspfa.jpg?fit=1065%2C804&ssl=1",
+        "type": "image"
+      },
+      "series": {
+        "type": "series",
+        "id": 2482845,
+        "slug": "shoptalk-2482845",
+        "title": "ShopTalk",
+        "image": {
+          "type": "image",
+          "id": 23248529,
+          "url": "https://shoptalkshow.com/wp-content/uploads/2021/02/artwork.png",
+          "urlBase": "https://cdn.player.fm/images/23248529/series/j2ewcsL0PG6EizpL",
+          "palette": [
+            "ca6532",
+            "8d4723"
+          ],
+          "suffix": "png"
+        },
+        "backgroundColor": "#D81422",
+        "network": {
+          "name": "ShopTalk"
+        },
+        "tags": [
+          {
+            "type": "tag",
+            "id": 38,
+            "title": "Society",
+            "rawTitle": "societi",
+            "language": "en",
+            "polar": 0.7,
+            "topic": {
+              "id": 691,
+              "owner": {
+                "id": 3
+              },
+              "title": "Society"
+            },
+            "ancestors": null,
+            "series": {
+              "amount": 156079,
+              "centile": 1
+            },
+            "sources": [
+              "categories"
+            ]
+          },
+          {
+            "type": "tag",
+            "id": 774660,
+            "title": "Chris Coyier and Dave Rupert",
+            "rawTitle": "chris-coyier-dave-rupert",
+            "language": "en",
+            "polar": 0.5,
+            "sources": [
+              "owner"
+            ]
+          },
+          {
+            "type": "tag",
+            "id": 774661,
+            "title": "Chris Coyier",
+            "rawTitle": "chris-coyier",
+            "language": "en",
+            "polar": 0.5,
+            "sources": [
+              "author"
+            ]
+          },
+          {
+            "type": "tag",
+            "id": 774662,
+            "title": "Dave Rupert",
+            "rawTitle": "dave-rupert",
+            "language": "en",
+            "polar": 0.5,
+            "sources": [
+              "author"
+            ]
+          },
+          {
+            "type": "tag",
+            "id": 786940,
+            "title": "Answer Questions",
+            "rawTitle": "answer-question",
+            "language": "en",
+            "polar": 0.5,
+            "sources": [
+              "inferred"
+            ]
+          },
+          {
+            "type": "tag",
+            "id": 8287,
+            "title": "Web Development",
+            "rawTitle": "web-develop",
+            "shortTitle": "Web Dev",
+            "language": "en",
+            "polar": 0.7,
+            "topic": {
+              "id": 21,
+              "owner": {
+                "id": 3
+              },
+              "title": "Web Development"
+            },
+            "ancestors": null,
+            "series": {
+              "amount": 269,
+              "centile": 0.971
+            },
+            "sources": [
+              "featured"
+            ]
+          },
+          {
+            "type": "tag",
+            "id": 77,
+            "title": "Tech",
+            "rawTitle": "tech",
+            "language": "en",
+            "polar": 0.7,
+            "topic": {
+              "id": 18,
+              "owner": {
+                "id": 3
+              },
+              "title": "Tech"
+            },
+            "ancestors": [],
+            "series": {
+              "amount": 50326,
+              "centile": 0.993
+            },
+            "sources": [
+              "featured"
+            ]
+          },
+          {
+            "type": "tag",
+            "id": 260,
+            "title": "Software Development",
+            "rawTitle": "softwar-develop",
+            "shortTitle": "Software Dev",
+            "language": "en",
+            "polar": 0.7,
+            "topic": {
+              "id": 932173,
+              "owner": {
+                "id": 3
+              },
+              "title": "Software Development"
+            },
+            "ancestors": null,
+            "series": {
+              "amount": 777,
+              "centile": 0.99
+            },
+            "sources": [
+              "featured"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "owner": {
+    "id": 11523201,
+    "name": "borekb",
+    "createdAt": 1483292252,
+    "fullName": "",
+    "access": "private",
+    "role": "tourist",
+    "primeChannelID": 16108213,
+    "playLaterChannelID": 16108214,
+    "hideAds": false,
+    "platform": "player_fm",
+    "galleryChannelID": 16108215,
+    "likesChannelID": 38416331,
+    "discoverChannelID": 16108216,
+    "bookmarksChannelID": 38416330,
+    "playsChannelID": 38416332,
+    "seriesSettingsChannelID": 38416328,
+    "knownSeriesChannelID": 38416329,
+    "lookup": "https://player.fm/11523201.json"
+  },
+  "versionInfo": "1.1.0"
+}
