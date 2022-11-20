@@ -1,18 +1,14 @@
 # Player FM history export
 
-1. Go to <https://player.fm/borekb/play-history/all>
-2. Scroll down a couple of times to get the entire history
-3. Run this:
+1. Create `.env` from `.env.example`
+2. Run:
 
 ```console
-deno run --allow-read --allow-write parse-history.ts
+deno run -A parse-history.ts
 ```
 
-It will produce `out.md`.
-
-4. If you want to commit the output, rename `out.md` to `player-fm-history.md` and commit it.
+This will produce `out.md`. When you're happy with the output, copy it to `player-fm-history.md` and commit it to the repo.
 
 ## Dev tips
 
-- In `parse-history.ts`, use the `player-fm-history (single episode).html` file for quicker development.
 - Add `--watch` to the command above to re-run the script after each change.

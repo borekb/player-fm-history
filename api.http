@@ -1,0 +1,10 @@
+# Use this with https://marketplace.visualstudio.com/items?itemName=humao.rest-client
+
+# See .env(.example)
+@cookie = {{$dotenv PLAYERFM_AUTH_COOKIE}}
+
+
+###
+
+GET https://player.fm/borekb/play-history/all.json?episode_detail=full&episode_limit=2&episode_order=rank&episode_active=any
+Cookie: {{cookie}};
