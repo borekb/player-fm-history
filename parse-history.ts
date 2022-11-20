@@ -34,7 +34,9 @@ $('article').map((_, article) => {
 
   const episodeTimestamp = Number($(article).attr('data-played-at'));
   const time = new Date(episodeTimestamp * 1000);
-  const episodeListenTimeFormatted = `${time.getDate()}\\. ${time.getMonth() + 1}. ${time.getFullYear()}`;
+  const episodeListenTimeFormatted = isNaN(episodeTimestamp)
+    ? '(?)'
+    : `${time.getDate()}\\. ${time.getMonth() + 1}. ${time.getFullYear()}`;
 
   write(
     `- ${episodeListenTimeFormatted}: <img width="16" height="16" src="${showImageUrl}"> [${showName}](${showUrl}) — [${episodeName}](${episodeUrl}) (${episodeDuration})`
